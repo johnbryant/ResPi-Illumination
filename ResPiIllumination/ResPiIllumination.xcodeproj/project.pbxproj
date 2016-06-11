@@ -17,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		099802721D0C8BBE00551A90 /* headers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = headers.h; sourceTree = "<group>"; };
 		09CC39971D083E3E00C1693D /* ResPiIllumination.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ResPiIllumination.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09CC399A1D083E3E00C1693D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		09CC39A11D083E3E00C1693D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -70,6 +71,7 @@
 				09CC39A81D083E3E00C1693D /* Info.plist */,
 				09D5C52B1D0C7688001ED4E5 /* illuminationViewController.swift */,
 				09D5C52D1D0C7FB0001ED4E5 /* illuminationDetailViewController.swift */,
+				099802721D0C8BBE00551A90 /* headers.h */,
 			);
 			path = ResPiIllumination;
 			sourceTree = "<group>";
@@ -333,6 +335,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.JohnBryant.ResPiIllumination;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/johnbryant/Development/IOS/ResPi-Illumination/ResPiIllumination/ResPiIllumination/headers.h";
 			};
 			name = Debug;
 		};
@@ -345,6 +348,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.JohnBryant.ResPiIllumination;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/johnbryant/Development/IOS/ResPi-Illumination/ResPiIllumination/ResPiIllumination/headers.h";
 			};
 			name = Release;
 		};
