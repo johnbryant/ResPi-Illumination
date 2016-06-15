@@ -1,0 +1,13 @@
+PODS:
+  - FlatUIKit (1.6.2)
+  - Socket.IO-Client-Swift (6.1.2)
+
+DEPENDENCIES:
+  - FlatUIKit
+  - Socket.IO-Client-Swift (~> 6.1.2)
+
+SPEC CHECKSUMS:
+  FlatUIKit: 1b41f0d4952ce8d970d8479ce79df54a960242c4
+  Socket.IO-Client-Swift: 60a60e8bfd7b16bc57c90ff6329e9f536b5eacdd
+
+COCOAPODS: 0.39.0
