@@ -7,28 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		099802771D0C992900551A90 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099802761D0C992900551A90 /* Device.swift */; };
+		099802791D0D1D2C00551A90 /* IconPickViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099802781D0D1D2C00551A90 /* IconPickViewController.swift */; };
 		09CC399B1D083E3E00C1693D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CC399A1D083E3E00C1693D /* AppDelegate.swift */; };
 		09CC39A21D083E3E00C1693D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09CC39A01D083E3E00C1693D /* Main.storyboard */; };
 		09CC39A41D083E3E00C1693D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09CC39A31D083E3E00C1693D /* Assets.xcassets */; };
 		09CC39A71D083E3E00C1693D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09CC39A51D083E3E00C1693D /* LaunchScreen.storyboard */; };
-		09D5C52C1D0C7688001ED4E5 /* illuminationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D5C52B1D0C7688001ED4E5 /* illuminationViewController.swift */; };
-		09D5C52E1D0C7FB0001ED4E5 /* illuminationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D5C52D1D0C7FB0001ED4E5 /* illuminationDetailViewController.swift */; };
-		5DECD619D42927C9DC2FBE7E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DEA22607E8E3C2AF54CE3823 /* libPods.a */; };
+		09CD448F1D11482B00C2B5E9 /* VoiceControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CD448E1D11482B00C2B5E9 /* VoiceControlViewController.swift */; };
+		09CD44911D11488B00C2B5E9 /* SiriWaveformView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CD44901D11488B00C2B5E9 /* SiriWaveformView.swift */; };
+		09CD44931D11495700C2B5E9 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 09CD44921D11495700C2B5E9 /* libz.tbd */; };
+		09CD44951D11495F00C2B5E9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09CD44941D11495F00C2B5E9 /* CoreLocation.framework */; };
+		09CD44971D11496800C2B5E9 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09CD44961D11496800C2B5E9 /* CoreTelephony.framework */; };
+		09CD44991D11496F00C2B5E9 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09CD44981D11496F00C2B5E9 /* AVFoundation.framework */; };
+		09CD449B1D11497800C2B5E9 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09CD449A1D11497800C2B5E9 /* AddressBook.framework */; };
+		09CD449D1D11497F00C2B5E9 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09CD449C1D11497F00C2B5E9 /* AudioToolbox.framework */; };
+		09CD449F1D11498700C2B5E9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09CD449E1D11498700C2B5E9 /* SystemConfiguration.framework */; };
+		09CD44A11D11498C00C2B5E9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09CD44A01D11498C00C2B5E9 /* QuartzCore.framework */; };
+		09CD44A31D11499400C2B5E9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09CD44A21D11499400C2B5E9 /* UIKit.framework */; };
+		09CD44A51D11499B00C2B5E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09CD44A41D11499B00C2B5E9 /* Foundation.framework */; };
+		09CD44A71D1149A100C2B5E9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09CD44A61D1149A100C2B5E9 /* CoreGraphics.framework */; };
+		09CD44A91D1149F200C2B5E9 /* iflyMSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09CD44A81D1149F200C2B5E9 /* iflyMSC.framework */; };
+		09CD44AC1D114A8300C2B5E9 /* IATConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 09CD44AB1D114A8300C2B5E9 /* IATConfig.m */; };
+		09CD44B01D114AE400C2B5E9 /* MONActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 09CD44AF1D114AE400C2B5E9 /* MONActivityIndicatorView.m */; };
+		09D5C52C1D0C7688001ED4E5 /* IlluminationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D5C52B1D0C7688001ED4E5 /* IlluminationViewController.swift */; };
+		09D5C52E1D0C7FB0001ED4E5 /* IlluminationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D5C52D1D0C7FB0001ED4E5 /* IlluminationDetailViewController.swift */; };
+		8B907441691CF4D68F5D4517 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1586BBE3F55EDAA5430C05C /* Pods.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		099802721D0C8BBE00551A90 /* headers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = headers.h; sourceTree = "<group>"; };
+		099802761D0C992900551A90 /* Device.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		099802781D0D1D2C00551A90 /* IconPickViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconPickViewController.swift; sourceTree = "<group>"; };
 		09CC39971D083E3E00C1693D /* ResPiIllumination.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ResPiIllumination.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09CC399A1D083E3E00C1693D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		09CC39A11D083E3E00C1693D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		09CC39A31D083E3E00C1693D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09CC39A61D083E3E00C1693D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		09CC39A81D083E3E00C1693D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		09D5C52B1D0C7688001ED4E5 /* illuminationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = illuminationViewController.swift; sourceTree = "<group>"; };
-		09D5C52D1D0C7FB0001ED4E5 /* illuminationDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = illuminationDetailViewController.swift; sourceTree = "<group>"; };
+		09CD448E1D11482B00C2B5E9 /* VoiceControlViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoiceControlViewController.swift; sourceTree = "<group>"; };
+		09CD44901D11488B00C2B5E9 /* SiriWaveformView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SiriWaveformView.swift; sourceTree = "<group>"; };
+		09CD44921D11495700C2B5E9 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		09CD44941D11495F00C2B5E9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		09CD44961D11496800C2B5E9 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		09CD44981D11496F00C2B5E9 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		09CD449A1D11497800C2B5E9 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		09CD449C1D11497F00C2B5E9 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		09CD449E1D11498700C2B5E9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		09CD44A01D11498C00C2B5E9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		09CD44A21D11499400C2B5E9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		09CD44A41D11499B00C2B5E9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		09CD44A61D1149A100C2B5E9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		09CD44A81D1149F200C2B5E9 /* iflyMSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iflyMSC.framework; path = ResPiIllumination/iflyMSC.framework; sourceTree = "<group>"; };
+		09CD44AA1D114A7200C2B5E9 /* IATConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IATConfig.h; sourceTree = "<group>"; };
+		09CD44AB1D114A8300C2B5E9 /* IATConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IATConfig.m; sourceTree = "<group>"; };
+		09CD44AE1D114ADB00C2B5E9 /* MONActivityIndicatorView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MONActivityIndicatorView.h; sourceTree = "<group>"; };
+		09CD44AF1D114AE400C2B5E9 /* MONActivityIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MONActivityIndicatorView.m; sourceTree = "<group>"; };
+		09D5C52B1D0C7688001ED4E5 /* IlluminationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IlluminationViewController.swift; sourceTree = "<group>"; };
+		09D5C52D1D0C7FB0001ED4E5 /* IlluminationDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IlluminationDetailViewController.swift; sourceTree = "<group>"; };
 		1B454A5CFA9DDE618EAD8FCD /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		65E1AACC25EDD6038F9F36E6 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		DEA22607E8E3C2AF54CE3823 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1586BBE3F55EDAA5430C05C /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,13 +74,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DECD619D42927C9DC2FBE7E /* libPods.a in Frameworks */,
+				09CD44A91D1149F200C2B5E9 /* iflyMSC.framework in Frameworks */,
+				09CD44A71D1149A100C2B5E9 /* CoreGraphics.framework in Frameworks */,
+				09CD44A51D11499B00C2B5E9 /* Foundation.framework in Frameworks */,
+				09CD44A31D11499400C2B5E9 /* UIKit.framework in Frameworks */,
+				09CD44A11D11498C00C2B5E9 /* QuartzCore.framework in Frameworks */,
+				09CD449F1D11498700C2B5E9 /* SystemConfiguration.framework in Frameworks */,
+				09CD449D1D11497F00C2B5E9 /* AudioToolbox.framework in Frameworks */,
+				09CD449B1D11497800C2B5E9 /* AddressBook.framework in Frameworks */,
+				09CD44991D11496F00C2B5E9 /* AVFoundation.framework in Frameworks */,
+				09CD44971D11496800C2B5E9 /* CoreTelephony.framework in Frameworks */,
+				09CD44951D11495F00C2B5E9 /* CoreLocation.framework in Frameworks */,
+				09CD44931D11495700C2B5E9 /* libz.tbd in Frameworks */,
+				8B907441691CF4D68F5D4517 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		099802731D0C98E300551A90 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				099802761D0C992900551A90 /* Device.swift */,
+				09CD44AD1D114AC000C2B5E9 /* SupportingFiles */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		099802751D0C98F700551A90 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				09D5C52B1D0C7688001ED4E5 /* IlluminationViewController.swift */,
+				09D5C52D1D0C7FB0001ED4E5 /* IlluminationDetailViewController.swift */,
+				099802781D0D1D2C00551A90 /* IconPickViewController.swift */,
+				09CD448E1D11482B00C2B5E9 /* VoiceControlViewController.swift */,
+				09CD44901D11488B00C2B5E9 /* SiriWaveformView.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
 		09CC398E1D083E3E00C1693D = {
 			isa = PBXGroup;
 			children = (
@@ -64,16 +135,35 @@
 		09CC39991D083E3E00C1693D /* ResPiIllumination */ = {
 			isa = PBXGroup;
 			children = (
+				099802751D0C98F700551A90 /* ViewController */,
+				099802731D0C98E300551A90 /* Model */,
 				09CC399A1D083E3E00C1693D /* AppDelegate.swift */,
 				09CC39A01D083E3E00C1693D /* Main.storyboard */,
 				09CC39A31D083E3E00C1693D /* Assets.xcassets */,
 				09CC39A51D083E3E00C1693D /* LaunchScreen.storyboard */,
 				09CC39A81D083E3E00C1693D /* Info.plist */,
-				09D5C52B1D0C7688001ED4E5 /* illuminationViewController.swift */,
-				09D5C52D1D0C7FB0001ED4E5 /* illuminationDetailViewController.swift */,
 				099802721D0C8BBE00551A90 /* headers.h */,
 			);
 			path = ResPiIllumination;
+			sourceTree = "<group>";
+		};
+		09CD44AD1D114AC000C2B5E9 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				09CD44B11D11623F00C2B5E9 /* VoiceRec */,
+			);
+			name = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		09CD44B11D11623F00C2B5E9 /* VoiceRec */ = {
+			isa = PBXGroup;
+			children = (
+				09CD44AA1D114A7200C2B5E9 /* IATConfig.h */,
+				09CD44AB1D114A8300C2B5E9 /* IATConfig.m */,
+				09CD44AE1D114ADB00C2B5E9 /* MONActivityIndicatorView.h */,
+				09CD44AF1D114AE400C2B5E9 /* MONActivityIndicatorView.m */,
+			);
+			name = VoiceRec;
 			sourceTree = "<group>";
 		};
 		A5CD0663AB914EFBD0070CA6 /* Pods */ = {
@@ -88,7 +178,19 @@
 		C588267E5992C8BD18A57B79 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DEA22607E8E3C2AF54CE3823 /* libPods.a */,
+				09CD44A81D1149F200C2B5E9 /* iflyMSC.framework */,
+				09CD44A61D1149A100C2B5E9 /* CoreGraphics.framework */,
+				09CD44A41D11499B00C2B5E9 /* Foundation.framework */,
+				09CD44A21D11499400C2B5E9 /* UIKit.framework */,
+				09CD44A01D11498C00C2B5E9 /* QuartzCore.framework */,
+				09CD449E1D11498700C2B5E9 /* SystemConfiguration.framework */,
+				09CD449C1D11497F00C2B5E9 /* AudioToolbox.framework */,
+				09CD449A1D11497800C2B5E9 /* AddressBook.framework */,
+				09CD44981D11496F00C2B5E9 /* AVFoundation.framework */,
+				09CD44961D11496800C2B5E9 /* CoreTelephony.framework */,
+				09CD44941D11495F00C2B5E9 /* CoreLocation.framework */,
+				09CD44921D11495700C2B5E9 /* libz.tbd */,
+				D1586BBE3F55EDAA5430C05C /* Pods.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -215,9 +317,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09D5C52E1D0C7FB0001ED4E5 /* illuminationDetailViewController.swift in Sources */,
-				09D5C52C1D0C7688001ED4E5 /* illuminationViewController.swift in Sources */,
+				09CD448F1D11482B00C2B5E9 /* VoiceControlViewController.swift in Sources */,
+				09D5C52E1D0C7FB0001ED4E5 /* IlluminationDetailViewController.swift in Sources */,
+				09CD44AC1D114A8300C2B5E9 /* IATConfig.m in Sources */,
+				09CD44B01D114AE400C2B5E9 /* MONActivityIndicatorView.m in Sources */,
+				09CD44911D11488B00C2B5E9 /* SiriWaveformView.swift in Sources */,
+				09D5C52C1D0C7688001ED4E5 /* IlluminationViewController.swift in Sources */,
 				09CC399B1D083E3E00C1693D /* AppDelegate.swift in Sources */,
+				099802771D0C992900551A90 /* Device.swift in Sources */,
+				099802791D0D1D2C00551A90 /* IconPickViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,6 +439,10 @@
 			baseConfigurationReference = 1B454A5CFA9DDE618EAD8FCD /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ResPiIllumination",
+				);
 				INFOPLIST_FILE = ResPiIllumination/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.JohnBryant.ResPiIllumination;
@@ -344,6 +456,10 @@
 			baseConfigurationReference = 65E1AACC25EDD6038F9F36E6 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ResPiIllumination",
+				);
 				INFOPLIST_FILE = ResPiIllumination/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.JohnBryant.ResPiIllumination;

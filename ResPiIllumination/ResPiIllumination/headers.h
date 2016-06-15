@@ -10,5 +10,8 @@
 #define headers_h
 
 #import "FlatUIKit/FlatUIkit.h"
+#import "iflyMSC/IFlyMSC.h"
+#import "IATConfig.h"
+#import "MONActivityIndicatorView.h"
 
 #endif /* headers_h */
